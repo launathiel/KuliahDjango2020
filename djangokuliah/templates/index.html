@@ -1,0 +1,22 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
+    <title>Kuliah Django</title>
+    <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" />
+</head>
+<body>
+    <div style="margin-left: 25px">
+        <a style ="font-family: 'Russo One'; text-decoration: none" href=" {% url 'tugas2' %}">Tugas 2</a>
+        <h1 style="font-family: 'Russo One'">HELLO WORLD!</h1>
+        <h2 style="font-family: 'Roboto Mono'">My name is Laurentius Nathaniel</h2>
+        <h2 style="font-family: 'Roboto Mono'">NIM : 1101194377</h2>
+        <h2 style="font-family: 'Roboto Mono'">I am a student of Telecomunication Engineering in Telkom University</h2>
+        <h3 style="font-family: 'Russo One'">Nice to meet you :)</h3>
+        <img src="{% static 'cover.jpg' %}" width="250" height="300">
+    </div>
+</body>
+</html>
